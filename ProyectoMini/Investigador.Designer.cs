@@ -29,16 +29,18 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnsalir = new System.Windows.Forms.Button();
             this.lblRolUsuario = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lblNombreUsuario = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnsalir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.button1);
             this.guna2Panel1.Controls.Add(this.btnsalir);
             this.guna2Panel1.Controls.Add(this.lblRolUsuario);
             this.guna2Panel1.Controls.Add(this.lblNombreUsuario);
@@ -50,6 +52,17 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(219, 450);
             this.guna2Panel1.TabIndex = 1;
+            // 
+            // btnsalir
+            // 
+            this.btnsalir.BackColor = System.Drawing.Color.Brown;
+            this.btnsalir.Location = new System.Drawing.Point(61, 392);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(75, 23);
+            this.btnsalir.TabIndex = 2;
+            this.btnsalir.Text = "Salir";
+            this.btnsalir.UseVisualStyleBackColor = false;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // lblRolUsuario
             // 
@@ -104,16 +117,14 @@
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Consultar Reuniones";
             // 
-            // btnsalir
+            // button1
             // 
-            this.btnsalir.BackColor = System.Drawing.Color.Brown;
-            this.btnsalir.Location = new System.Drawing.Point(61, 392);
-            this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(75, 23);
-            this.btnsalir.TabIndex = 2;
-            this.btnsalir.Text = "Salir";
-            this.btnsalir.UseVisualStyleBackColor = false;
-            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            this.button1.Location = new System.Drawing.Point(48, 326);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Investigador
             // 
@@ -137,5 +148,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.Windows.Forms.Button btnsalir;
+        private System.Windows.Forms.Button button1;
     }
 }
