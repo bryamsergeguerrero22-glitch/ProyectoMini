@@ -17,10 +17,10 @@ namespace ProyectoMini
             try
             {
                 // 1. Configurar la cadena de conexión y conectar a MongoDB
-                string connectionString = "mongodb://localhost:27017/";
-                var client = new MongoClient(connectionString);
-                var database = client.GetDatabase("semillero");
-                var collection = database.GetCollection<BsonDocument>("Usuario");
+                string connectionString = "mongodb://localhost:27017/";// Asegúrate de que esta cadena de conexión sea correcta para tu entorno
+                var client = new MongoClient(connectionString);// Crea una instancia del cliente de MongoDB
+                var database = client.GetDatabase("Base_datos_Reunion");// Asegúrate de que el nombre de la base de datos sea correcto
+                var collection = database.GetCollection<BsonDocument>("Usuario");// Asegúrate de que el nombre de la colección sea correcto
 
                 // 2. Obtener los valores de los cuadros de texto
                 // IMPORTANTE: Cambia "txtID" y "txtPassword" por los nombres reales de tus TextBox en el diseño
