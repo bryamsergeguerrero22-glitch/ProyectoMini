@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "ID": 3067863
+  },
+  "Nombre_Semillero": "SemiTec",
+  "Fecha_Creacion": {
+    "$date": "2026-01-01T05:00:00.000Z"
+  },
+  "Descripion": "SemiTec impulsa la innovación y el talento en tecnología.",
+  "Linea_Investigacion": "Tecnologia"
+},
+{
+  "_id": {
+    "ID": 3068364
+  },
+  "Nombre_Semillero": "Sennova",
+  "Fecha_Creacion": {
+    "$date": "2026-02-01T05:00:00.000Z"
+  },
+  "Descripion": "impulsa la investigación, innovación y desarrollo tecnológico en el SENA.",
+  "Linea_Investigacion": "Tecnologia - Investigación"
+}]

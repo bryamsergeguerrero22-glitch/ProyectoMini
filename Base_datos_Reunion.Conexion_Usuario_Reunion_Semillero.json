@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "ID": 1049583207
+  },
+  "Nombre_Usuario": "Maikol Yesid",
+  "Fecha": {
+    "$date": "2026-05-05T13:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "ID": 1137524331
+  },
+  "Nombre_Usuario": "Andres Felipe",
+  "Fecha": {
+    "$date": "2026-06-05T19:00:00.000Z"
+  }
+}]

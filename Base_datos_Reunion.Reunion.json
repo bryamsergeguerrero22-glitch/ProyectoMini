@@ -1,0 +1,16 @@
+[{
+  "_id": 1,
+  "fechaReunion": {
+    "$date": "2026-05-05T13:00:00.000Z"
+  },
+  "descripcionReunion": "capacitacion de IA",
+  "Lugar": "SENA 4 Vientos, salón 1"
+},
+{
+  "_id": 2,
+  "fechaReunion": {
+    "$date": "2026-06-05T19:00:00.000Z"
+  },
+  "descripcionReunion": "capacitacion de IA",
+  "Lugar": "SENA Ternera, salón 10"
+}]

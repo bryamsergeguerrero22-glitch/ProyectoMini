@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "ID": 1016007869
+  },
+  "Nombres": "Bryam De Jesús",
+  "Apellidos": "Serge Guerrero",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Investigador",
+  "Nombre_Semillero": "SemiTec"
+},
+{
+  "_id": {
+    "ID": 1235048513
+  },
+  "Nombres": "Samuel Alejandro",
+  "Apellidos": "Gómez González",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Lider",
+  "Nombre_Semillero": "Sennova"
+},
+{
+  "_id": {
+    "ID": 1103500122
+  },
+  "Nombres": "Daniel Eduardo",
+  "Apellidos": " Pacheco Perez",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Investigador",
+  "Nombre_Semillero": "SemiTec"
+},
+{
+  "_id": {
+    "ID": 1002200995
+  },
+  "Nombres": "Jeremias De Jesus",
+  "Apellidos": "Castro Jimenez",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Lider",
+  "Nombre_Semillero": "Sennova"
+},
+{
+  "_id": {
+    "ID": 1044917045
+  },
+  "Nombres": "Roberto",
+  "Apellidos": "Martínez Díaz",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Investigador",
+  "Nombre_Semillero": "SemiTec"
+},
+{
+  "_id": {
+    "ID": 1043301184
+  },
+  "Nombres": "Devian Alexander",
+  "Apellidos": "Arrieta Zuñiga",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Lider",
+  "Nombre_Semillero": "Sennova"
+},
+{
+  "_id": {
+    "ID": 1049583207
+  },
+  "Nombres": "Maikol Yesid",
+  "Apellidos": "Castellon Tapias",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Investigador",
+  "ID": 1,
+  "Nombre_Semillero": "SemiTec"
+},
+{
+  "_id": {
+    "ID": 1007855431
+  },
+  "Nombres": "Kerin antonio",
+  "Apellidos": "Royo Lombana",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Lider",
+  "Nombre_Semillero": "Sennova"
+},
+{
+  "_id": {
+    "ID": 1047385022
+  },
+  "Nombres": "Keiler David",
+  "Apellidos": "Medina Herrera",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Investigador",
+  "Nombre_Semillero": "SemiTec"
+},
+{
+  "_id": {
+    "ID": 1007979437
+  },
+  "Nombres": "Isacc Daniel",
+  "Apellidos": "Bossio Jaraba",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Lider",
+  "Nombre_Semillero": "Sennova"
+},
+{
+  "_id": {
+    "ID": 1143331389
+  },
+  "Nombres": "Eduar Luis",
+  "Apellidos": "Llorente Narvaez",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Lider",
+  "Nombre_Semillero": "SemiTec"
+},
+{
+  "_id": {
+    "ID": 1049583295
+  },
+  "Nombres": "Leizmy",
+  "Apellidos": "Angulo Del carmen",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Investigador",
+  "Nombre_Semillero": "Sennova"
+},
+{
+  "_id": {
+    "ID": 1137524331
+  },
+  "Nombres": "Andres Felipe",
+  "Apellidos": "Martinez Medina",
+  "Contraseña": 3067863,
+  "Tipo_Usuario": "Investigador",
+  "ID": 2,
+  "Nombre_Semillero": "SemiTec"
+}]
