@@ -36,7 +36,7 @@ namespace ProyectoMini
         {
             // Reemplaza con tu cadena de conexión si es distinta
             var client = new MongoClient("mongodb://localhost:27017/");
-            database = client.GetDatabase("Base_datos_Reunion"); // El nombre de tu BD
+            database = client.GetDatabase("Base_de_datos_Reunion"); // El nombre de tu BD
             usuariosCollection = database.GetCollection<BsonDocument>("Usuario");
         }
 

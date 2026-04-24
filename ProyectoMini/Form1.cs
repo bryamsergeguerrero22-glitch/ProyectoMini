@@ -19,7 +19,7 @@ namespace ProyectoMini
                 // 1. Configurar la cadena de conexión y conectar a MongoDB
                 string connectionString = "mongodb://localhost:27017/";// Asegúrate de que esta cadena de conexión sea correcta para tu entorno
                 var client = new MongoClient(connectionString);// Crea una instancia del cliente de MongoDB
-                var database = client.GetDatabase("Base_datos_Reunion");// Asegúrate de que el nombre de la base de datos sea correcto
+                var database = client.GetDatabase("Base_de_datos_Reunion");// Asegúrate de que el nombre de la base de datos sea correcto
                 var collection = database.GetCollection<BsonDocument>("Usuario");// Asegúrate de que el nombre de la colección sea correcto
 
                 // 2. Obtener los valores de los cuadros de texto
@@ -80,6 +80,26 @@ namespace ProyectoMini
                 // Este error captura problemas de conexión, base de datos caída, etc.
                 MessageBox.Show("Error al intentar conectar con la base de datos:\n" + ex.Message,
                                 "Error Crítico", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void txtID_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Bloquea si NO es número Y NO es una tecla de control (como borrar)
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("Por favor solo ingrese números", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Bloquea si NO es número Y NO es una tecla de control (como borrar)
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("Por favor solo ingrese números", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }
